@@ -21,10 +21,17 @@ topics:
     web_url: https://github.com/topics/security
     image_url: https://www.mobileworldlive.com/wp-content/uploads/2018/05/shutterstock_527048005-security-lock-privacy-650.jpg
 
-  - name: Test automation
+  - name: Game development
     web_url: https://github.com/topics/test-automation
     image_url: https://executeautomationtest.files.wordpress.com/2017/11/automation-testing.png?w=620
 
   - name: Edge computing
     web_url: https://github.com/topics/edge-computing
     image_url: https://macchina.io/images/EdgeFog.001.png
+
+skills:
+  - name: Java
+  - name: C++
+  - name: Test automation
+  - name: Distributed Systems
+  - name: Linux
