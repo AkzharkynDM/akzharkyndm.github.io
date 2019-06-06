@@ -30,8 +30,16 @@ topics:
     image_url: https://macchina.io/images/EdgeFog.001.png
 
 skills:
-  - name: Java
-  - name: C++
+  - name: Research
+  - name: Security
   - name: Test automation
   - name: Distributed Systems
   - name: Linux
+
+social_media:
+  facebook: akzharkyn.maratovna
+  quora: Akzharkyn-Duisembiyeva
+  instagram: akzharkyndm
+  linkedin: akzharkyn-duisembiyeva
+  pinterest: aduisembiyeva
+  stackoverflow: 10411618
