@@ -10,6 +10,17 @@
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
 }
 
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
+
 .repo-language-color {
     filter: brightness(125%) !important;
     border-radius: 50%;
