@@ -21,13 +21,47 @@ topics:
     web_url: https://tryhackme.com/p/Akzharkyn
     image_url: https://www.mobileworldlive.com/wp-content/uploads/2018/05/shutterstock_527048005-security-lock-privacy-650.jpg
 
-  - name: Nordic nature
+  - name: Nature
     web_url: https://pinterest.se/succulentsfloweringlass
     image_url: https://www.nordicspirits.com/sites/default/files/styles/image_w_600_h_450_scale_crop/public/2018-10/38315528666_f5374fe0c7_o.jpg?itok=K-4uZ3z8
 
   - name: Terrariums
     web_url: https://patreon.com/terrariums_stockholm
     image_url: https://payload.cargocollective.com/1/2/66785/9297755/Terrariums_800.jpg
+
+educations:
+  - date: 2020
+    title: Master of Science in Communication Systems at KTH Royal Institute of Technology, Sweden
+    description: Courses include Security analysis of a large scale enterprise, Ethical Hacking,
+      Master thesis project (Automated security analysis in a SCADA system).
+  - date: 2019
+    title: Master of Science in Security and Cloud Computing at Aalto University, Finland
+    description: Courses include Advanced Cryptography, Mobile Systems Security, Network Security,
+      Mobile Cloud Computing, Laboratory works in Security and Networking,
+      Big Data Platforms, Applications and Services in Internet.
+  - date: 2015
+    title: Exhcange semester at Pittsburg State University, US
+    description: Courses include Management Informaiton Systems, Computer Networks, Object-Oriented Programming,
+      Introduction to System Adminsitration
+  - date: 2015
+    title: Bachelor of Computer Science at Eotvos Lorand University, Hungary
+    description: Courses include Practical Sofwate Engineering, Operating Systems, Numerical methods,
+      Databases, Computer Networking, Application Development,
+      Bachelor thesis project (3D meshes generation from noisy point clouds).
+
+experiences:
+  - date: Apr 2021
+    title: Access Engineer at Tink, Sweden
+    description: Working on access, authentication, authorisation of external clients
+  - date: Jun 2020
+    title: Software Engineer at Tink, Sweden
+    description: Duties include development, deployemnt and operation of microservices using Java, Go, GCP, Grafana, Kibana.
+  - date: Jun 2019
+    title: Summer Technology Analyst at Blackrock, UK
+    description: A summer internship in Core System Operation team that included participation in development of summer project, hackathon and learning sessions.
+  - date: Jun 2017
+    title: Student Software Developer at Ericsson R&D centre, Hungary
+    description: Duties include working as test automation engineer, handling process automation, CI (Jenkins) and participation in development of embedded software.
 
 #skills:
 #  - name: Research

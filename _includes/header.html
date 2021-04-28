@@ -11,63 +11,23 @@
 {% assign user = site.github.owner %}
 
 {% if page.path contains '_posts' %}
+  {% assign page_title = page.title %}
   {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% else %}
+  {% assign page_title = user.name %}
   {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="min-height-full">
   <head>
     <meta charset="utf-8">
+    <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
-    <title>{{ user.name }}</title>
+    <meta property="og:title" content="{{ user.name }}" />
+    <meta property="og:image" content="{{ user.avatar_url }}" />
+    <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css">
-
-    <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-      <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/styles.css" rel="stylesheet"> -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   </head>
-  <body  {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
-        <div id="mobile-menu-open" class="shadow-large">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-        <!-- End #mobile-menu-toggle -->
-        <header>
-            <div id="mobile-menu-close">
-                <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-            <ul id="menu" class="shadow">
-                <li>
-                    <a href="#masthead">About</a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#interests">Interests</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-
-            </ul>
-        </header>
-        <!-- End header -->
+  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
