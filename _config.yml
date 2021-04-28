@@ -18,7 +18,7 @@ defaults:
 
 topics:
   - name: Ethical hacking
-    web_url: https://instagram.com/terrariums.stockholm
+    web_url: https://tryhackme.com/p/Akzharkyn
     image_url: https://www.mobileworldlive.com/wp-content/uploads/2018/05/shutterstock_527048005-security-lock-privacy-650.jpg
 
   - name: Nordic nature
@@ -39,12 +39,15 @@ topics:
 social_media:
   facebook: akzharkyn.maratovna
   quora: Akzharkyn-Duisembiyeva
-  instagram: akzharkyndm
   instagram: terrariums.stockholm
   linkedin: akzharkyn-duisembiyeva
-  pinterest: aduisembiyeva
   pinterest: succulentsfloweringlass
   patreon: terrariums_stockholm
   stackoverflow: 10411618
   goodreads: akzharkyndm
   hackerrank: akzharkyn
+  twitter: c0mm0n3
+  tryhackme: Akzharkyn
+  ctftime: 77312
+  hackthebox: 456817
+  medium: aduisembiyeva
