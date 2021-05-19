@@ -40,7 +40,7 @@ educations:
       Mobile Cloud Computing, Laboratory works in Security and Networking,
       Big Data Platforms, Applications and Services in Internet.
   - date: 2015
-    title: Exhcange semester at Pittsburg State University, US
+    title: Exchange semester at Pittsburg State University, US
     description: Courses include Management Informaiton Systems, Computer Networks, Object-Oriented Programming,
       Introduction to System Adminsitration
   - date: 2015
@@ -71,6 +71,7 @@ experiences:
 #  - name: Linux
 
 social_media:
+  #email: aduisembiyeva@gmail.com
   facebook: akzharkyn.maratovna
   quora: Akzharkyn-Duisembiyeva
   instagram: terrariums.stockholm
